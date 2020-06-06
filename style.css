@@ -1,0 +1,101 @@
+
+
+body{
+    background-color:#ffc107 !important;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden     !important;
+}
+
+
+/* ----------------------------------logobar-------------------------------- */
+
+.logo{
+    margin-left: -15px;
+    width: 125px;
+}
+
+.logobar{
+    background-color:#000000 !important;
+}
+
+/* --------------------------------------navbar-------------------------------------------------------------- */
+
+.nav{
+    color: white !important;
+}
+.nav1{
+    margin-left: 20px;
+}
+.nav:hover{
+    background-color:lightblue;
+    color: black !important;
+}
+.navdrop a:hover{
+    background-color: lightblue;
+}
+
+/* ----------------------------------Slider------------------------------------------------- */
+
+@media screen and (max-width: 950px) {
+    .image{
+        height: 200px;
+    }
+}
+
+
+
+
+/* ------------------------------------Cards-------------------------------------------------- */
+
+.cardp1{
+    width: 300px;
+    height: 360px;
+}
+.cardp1:hover{
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.3); 
+  z-index: 1;
+  cursor: pointer;
+  color: blueviolet;
+}
+.cardp{
+    text-align: center;
+}
+
+/* ------------------------------------Trending------------------------------------------------- */
+
+.cardp2{
+    width: 200px;
+    height: 330px;
+
+}
+.cardp2:hover{
+    border: solid blueviolet;
+    cursor: pointer;
+    color: blueviolet;
+}
+.amount{
+    color: green !important;
+}
+
+/* ---------------------------------Footer------------------------------------------------------ */
+
+.socialimg{
+    margin-right: 20px;
+    height: 30px;
+}
+#footer{
+    float:left;
+padding:15px;
+min-width:100%;
+}
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+
